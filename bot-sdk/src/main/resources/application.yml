@@ -2,7 +2,7 @@ spring:
   application:
     name: bot-sdk
   profiles:
-    include: common
+    include: app
   data:
     redis:
       database: 0

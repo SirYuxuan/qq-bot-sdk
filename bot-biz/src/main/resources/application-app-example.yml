@@ -5,7 +5,7 @@ app:
   api-path-sandbox: "https://sandbox.api.sgroup.qq.com"
   # 机器人相关配置
   bot:
-    id: "########"
-    qq: "########"
-    token: "########"
-    secret: "########"
+    id: "####"
+    qq: "####"
+    token: "####"
+    secret: "####"
