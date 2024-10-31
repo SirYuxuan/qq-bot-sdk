@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cc.oofo</groupId>
+    <artifactId>yuxuan-bot</artifactId>
+    <version>0.0.1</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>bot-sdk</module>
+        <module>bot-test</module>
+        <module>bot-biz</module>
+    </modules>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.3.4</version>
+        <relativePath/>
+    </parent>
+
+    <properties>
+        <bot.version>0.0.1</bot.version>
+        <java.version>21</java.version>
+        <project.encoding>UTF-8</project.encoding>
+        <hutool-all.version>5.8.32</hutool-all.version>
+        <tio.version>3.8.6.v20240801-RELEASE</tio.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- QQ机器人SDK Java版 -->
+            <dependency>
+                <groupId>cc.oofo</groupId>
+                <artifactId>bot-sdk</artifactId>
+                <version>${bot.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool-all.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.t-io</groupId>
+                <artifactId>tio-websocket-client</artifactId>
+                <version>${tio.version}</version>
+            </dependency>
+
+        </dependencies>
+
+
+    </dependencyManagement>
+
+</project>

@@ -1,0 +1,11 @@
+app:
+  sandbox: true
+  open-api-path: "https://bots.qq.com/app"
+  api-path: "https://api.sgroup.qq.com"
+  api-path-sandbox: "https://sandbox.api.sgroup.qq.com"
+  # 机器人相关配置
+  bot:
+    id: "########"
+    qq: "########"
+    token: "########"
+    secret: "########"

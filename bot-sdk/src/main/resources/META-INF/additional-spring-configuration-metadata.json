@@ -1,0 +1,43 @@
+{
+  "properties": [
+    {
+      "name": "app.sandbox",
+      "type": "java.lang.Boolean",
+      "description": "Description for app.sandbox."
+    },
+    {
+      "name": "app.api-path",
+      "type": "java.lang.String",
+      "description": "Description for app.api-path."
+    },
+    {
+      "name": "app.api-path-sandbox",
+      "type": "java.lang.String",
+      "description": "Description for app.api-path-sandbox."
+    },
+    {
+      "name": "app.bot.id",
+      "type": "java.lang.Long",
+      "description": "Description for app.bot.id."
+    },
+    {
+      "name": "app.bot.qq",
+      "type": "java.lang.Long",
+      "description": "Description for app.bot.id."
+    },
+    {
+      "name": "app.bot.token",
+      "type": "java.lang.String",
+      "description": "Description for app.bot.token."
+    },
+    {
+      "name": "app.bot.secret",
+      "type": "java.lang.String",
+      "description": "Description for app.bot.secret."
+    },
+    {
+      "name": "app.open-api-path",
+      "type": "java.lang.String",
+      "description": "Description for app.open-api-path."
+    }
+  ] }

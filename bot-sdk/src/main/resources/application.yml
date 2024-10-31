@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: bot-sdk
+  profiles:
+    include: common
+  data:
+    redis:
+      database: 0
+      host: localhost
+logging:
+  level:
+    org:
+      tio: error
